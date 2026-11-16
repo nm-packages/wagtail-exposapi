@@ -12,8 +12,7 @@ from wagtail.contrib.redirects.models import Redirect
 if WAGTAIL_VERSION >= (5, 1):
     from wagtail.contrib.search_promotions.models import Query, SearchPromotion
 else:
-    from wagtail.search.models import Query
-    from wagtail.search.models import SearchPromotion
+    from wagtail.search.models import Query, SearchPromotion
 
 from wagtail.documents.models import Document as WagtailDocument
 from wagtail.images.models import Image as WagtailImage
